@@ -45,8 +45,8 @@ document.getElementById("nav-bar").innerHTML = `
     <div class="col-3"></div>
     <div class="col-6 main-nav">
         <a href="./index.html">TRANG CHỦ</a>
-        <a href="./san-pham.html">SẢN PHẨM</a>
-        <a href="./gioi-thieu.html">GIỚI THIỆU</a>
+        <a href="./sanpham.html">SẢN PHẨM</a>
+        <a href="./gioithieu.html">GIỚI THIỆU</a>
         <a href="./blog.html">BLOG</a>
     </div>
     <div class="col-3"></div>
@@ -316,7 +316,7 @@ const formOpenBtn = document.querySelector("#form_open"),
 formOpenBtn.addEventListener("click", () => {
   if (userLogin === "") blurOverplay.classList.add("show-popup");
 });
-formCloseBtn.addEventListener("click", () =>
+formCloseBtn.addEventListener("", () =>
   blurOverplay.classList.remove("show-popup")
 );
 
