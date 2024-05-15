@@ -45,7 +45,7 @@ document.getElementById("nav-bar").innerHTML = `
     <div class="col-3"></div>
     <div class="col-6 main-nav">
         <a href="./index.html">TRANG CHỦ</a>
-        <a href="./sanpham.html">SẢN PHẨM</a>
+        <a href="./san-pham.html">SẢN PHẨM</a>
         <a href="./gioithieu.html">GIỚI THIỆU</a>
         <a href="./blog.html">BLOG</a>
     </div>
